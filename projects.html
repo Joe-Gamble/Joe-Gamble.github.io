@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GambleDev</title>
+  <title>Projects</title>
   <style>
     /* Basic CSS for tabs */
     body {
@@ -31,26 +31,71 @@
     nav a:hover {
       background-color: #ddd;
     }
+    section {
+      padding: 20px;
+    }
+    .project {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .project img {
+      width: 100px;
+      height: 100px;
+      margin-right: 20px;
+      border-radius: 5px;
+    }
+    .project-info {
+      flex: 1;
+    }
+    .project-info h3 {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    .project-info p {
+      margin: 0;
+    }
   </style>
 </head>
 <body>
-    <header>
-      <h1>Projects</h1>
-    </header>
-    <nav>
-      <a href="home.html">Home</a>
-      <a href="">Projects</a>
-      <a href="devlogs.html">Devlogs</a>
-      <a href="about.html">About Me</a>
-    </nav>
-    <section>
-      <h2>List of Projects</h2>
-      <ul>
-        <li>Ralph</li>
-        <li>Checkers</li>
-        <li>End of the Elements</li>
-        <li>GNet and GEngine</li>
-      </ul>
-    </section>
-  </body>
+  <header>
+    <h1>Projects</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#">Projects</a>
+    <a href="devlogs.html">Devlogs</a>
+    <a href="about.html">About Me</a>
+  </nav>
+  <section>
+    <div class="project">
+      <img src="test.jpg" alt="Ralph Project">
+      <div class="project-info">
+        <h3>Ralph</h3>
+        <p>A project description goes here...</p>
+      </div>
+    </div>
+    <div class="project">
+      <img src="test.jpg" alt="Checkers Project">
+      <div class="project-info">
+        <h3>Checkers</h3>
+        <p>A project description goes here...</p>
+      </div>
+    </div>
+    <div class="project">
+      <img src="test.jpg" alt="End of the Elements Project">
+      <div class="project-info">
+        <h3>End of the Elements</h3>
+        <p>A project description goes here...</p>
+      </div>
+    </div>
+    <div class="project">
+      <img src="test.jpg" alt="GNet & GEngine">
+      <div class="project-info">
+        <h3>GNet and GEngine</h3>
+        <p>A project description goes here...</p>
+      </div>
+    </div>
+  </section>
+</body>
 </html>
